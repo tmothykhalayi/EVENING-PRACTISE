@@ -1,13 +1,15 @@
 //function declaration
-function greet(){
+/*function greet(){
     console.log('hello there!');
 }
+
 //function expression
 const greetings =function(){
     console.log('good morning');
 };
+
 //function calling
-greet();
+/*greet();
 greetings();
 
 //arguments and parameters
@@ -15,7 +17,7 @@ const seek = function( name,time){
     console.log(`Good ${time} ${name}`);
 };
 
-seek("Timothy" ,"morning");
+seek("Timothy" ,"morning");*/
 
 //returning functions
 /*let  area =function(radius){
@@ -35,9 +37,11 @@ console.log(results);*/
 
 const bill =(products ,tax)=>{
     let total=0;
-    for(let i=0;i<products.length;i++){
-        total+=products[i] + product[i]*tax
+    for(let i=0;i < products.length;i++){
+        total += products[i] + products[i]*tax
     }
     return total;
 }
-console.log(bill([240,100,50]*0.2));
+console.log(bill([240,100,50],0.2));
+
+    
