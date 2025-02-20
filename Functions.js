@@ -45,3 +45,12 @@ const bill =(products ,tax)=>{
 console.log(bill([240,100,50],0.2));
 
     
+//Callbacks for each.
+let people=['mario','luigi','toad','bowser','peach'];
+const logPerson = (person,index) =>{
+    console.log(`${index} - hello ${person}`);
+}
+people.forEach((person ,index) =>{
+    console.log( index ,person);
+});
+
